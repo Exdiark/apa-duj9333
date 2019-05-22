@@ -9,13 +9,12 @@ import java.awt.Graphics;
 import java.awt.Image;
 import javax.imageio.ImageIO;
 
-import com.sun.jdi.connect.Connector.BooleanArgument;
-
 public class Alien extends MovingThing
 {
   private Image image;
   private String direction = "RIGHT";
   private Bullets bullets = new Bullets();
+  private int type = 0;
 
   public Alien()
   {
@@ -141,6 +140,16 @@ public class Alien extends MovingThing
 	  {
 		  a.move();
 	  }
+  }
+  
+  public int getType()
+  {
+	  return type;
+  }
+  
+  public void setType(int a)
+  {
+	  type = a;
   }
 
   public String toString()

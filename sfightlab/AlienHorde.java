@@ -167,7 +167,8 @@ public class AlienHorde
   {
     for(Alien a:aliens)
     {
-      a.shoot();
+      if(a.getType() == 0)
+    	  a.shoot();
     }
   }
   
