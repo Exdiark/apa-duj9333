@@ -180,7 +180,7 @@ public class AlienHorde
 	  }
   }
 
-  public int getSize()
+  public int getSize()  
   {
     return aliens.size();
   }

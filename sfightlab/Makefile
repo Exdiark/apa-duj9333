@@ -10,14 +10,11 @@ CLASSES = \
 	Ship.java \
 	Alien.java \
 	Alien2.java \
-	Alien3.java \
 	AlienHorde.java \
 	Aliens.java \
 	Ammo.java \
-	Score.java \
 	Bullets.java \
 	OuterSpace.java \
-	Shiptest.java \
 	StarFighter.java \
 	
 
